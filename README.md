@@ -1,0 +1,2 @@
+# coinhive
+Coinhive miner
